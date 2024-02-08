@@ -1,7 +1,4 @@
 # coding=UTF-8
-
-# Author: Loveaabb
-# Licence of the code: CC0
 MEOW = '喵'
 CHAR_SPLIT = '咪'
 NUM_SPLIT = '|'
@@ -91,9 +88,9 @@ def main():
                     print('Error: hm: 需要参数才能转换喵！')
                     print('用法：hm 人类语言文本\n')
                     continue
-
+                realparam = ' '.join(params)
                 print('转换结果：\n---------------------------------------------\n')
-                print(human2meow(params[0]))
+                print(human2meow(realparam))
 
             elif cmd == 'mh':
                 if not hasparam(params):
