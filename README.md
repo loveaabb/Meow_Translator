@@ -8,3 +8,5 @@ cd path/to/喵语翻译器
 pyinstaller.exe .\喵语翻译器.py --name meow_translator -i .\mt.ico
 ```
 二进制文件于 dist 目录中生成
+## 许可证
+许可证（代码和媒体文件）：CC0
