@@ -1,4 +1,7 @@
 # coding=UTF-8
+
+# Author: Loveaabb
+# Licence of the code: CC0
 MEOW = '喵'
 CHAR_SPLIT = '咪'
 NUM_SPLIT = '|'
